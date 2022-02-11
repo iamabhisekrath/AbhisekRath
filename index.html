@@ -37,7 +37,18 @@
         </header>
 
         <main class="l-main">
-            <!--===== HOME =====-->
+
+                <!-- Change Theme -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+           <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Abhisek</span><br>welcome </h1>
@@ -52,7 +63,7 @@
                     <a href="https://www.instagram.com/abhisek_rath/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
                 </div>
 
-                <div class="home__img">    
+                <div class="home__img">
                     <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_100/5777276/356612_487621.jpeg" alt="">
                 </div>
             </section>
@@ -65,12 +76,10 @@
                     <div class="about__img">
                         <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/5777276/998453_834298.jpg" alt="">
                     </div>
-                    
                     <div>
                         <h2 class="about__subtitle">I'am Abhisek</h2>
-                        <p class="about__text">My name is Abhisek Rath .I was born in Odisha.I have done my schooling from berhampur itself till 12th std .Thereafter i have joined Engineering in a state gov.college in Mechanical Branch. Future graphic designer and a software developer,and a content writer. Last year I completed the Foundation program, of python with AI.
-                            The most valuable lesson I have learned how to build a strong mindset and take a postive action.</p>           
-                    </div>                                   
+                        <p class="about__text">Hello. I'm Abhisek, a 18-year-old pursuing B.Tech in Mechanical engineering. I am a passionate self-learner and an open source enthusiast. I love exploring and building projects using various technologies. I conduct and love to participate in workshops, events, and collaborative programs in science, innovation, management, entrepreneurship, etc.</p>
+                    </div>
                 </div>
             </section>
 
@@ -78,7 +87,7 @@
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
 
-                <div class="skills__container bd-grid">          
+                <div class="skills__container bd-grid">
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
                         <p class="skills__text">excellent leadership skills and a great interest in seeking out experiences that will allow me to learn from others.</p>
@@ -100,7 +109,6 @@
                                 <span class="skills__name">python</span>
                             </div>
                             <div class="skills__bar skills__python">
-                                
                             </div>
                             <div>
                                 <span class="skills__percentage">85%</span>
@@ -112,11 +120,10 @@
                                 <span class="skills__name">Artificial intelligence</span>
                             </div>
                             <div class="skills__bar skills__Artificialintelligence">
-                                
                             </div>
                             <div>
                                 <span class="skills__percentage">65%</span>
-                            </div>
+                     </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
@@ -124,7 +131,6 @@
                                 <span class="skills__name">UX/UI</span>
                             </div>
                             <div class="skills__bar skills__ux">
-                                
                             </div>
                             <div>
                                 <span class="skills__percentage">85%</span>
@@ -136,41 +142,92 @@
                               <span class="skills__name">content writer</span>
                             </div>
                             <div class="skills__bar skills__ux">
-                        
                             </div>
                             <div>
                                <span class="skills__percentage">80%</span>
                             </div>
                         </div>
-                    <div>  
-                    </div>       
+                    <div>
+                    </div>
 
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>
                 </div>
             </section>
+<!-- Qualifications -->
+<section class="qualification section" id="qualification">
+    <h2 class="section_title">Qualifications</h2>
+    <span class="section_subtitle">My Educational Qualification & Work Experience</span>
+
+    <div class="qualification_container container">
+      <div class="qualification_tabs">
+        <div class="qualification_button button-flex" id="educationheader">
+          <i class="uil uil-graduation-cap qualification_icon"></i>Education
+        </div>
+
+        <div class="qualification_button button-flex" id="workheader">
+          <i class="uil uil-briefcase-alt qualification_icon"></i>Work
+        </div>
+      </div>
+
+      <div class="qualification_sections">
+        <!-- Educational Qualification -->
+        <div class="qualification_content qualification_active" data-content id="education">
+          <!-- BTech IT -->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">BTech IN Mechanical Engineering</h3>
+              <span class="qualification_subtitle">Parala Maharaja Engineering College</span>
+              <div class="qualification_calendar">
+                <i class="uil uil-calendar-alt"></i>
+                2021 - 2025
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification_circle"></span>
+              <span class="qualification_line"></span>
+            </div>
+          </div>
+
+          <!-- School 11-12 -->
+          <div class="qualification_data">
+            <div></div>
+
+            <div>
+              <span class="qualification_circle"></span>
+              <span class="qualification_line"></span>
+            </div>
+
+            <div>
+              <h3 class="qualification_title">Senior Secondary School</h3>
+              <span class="qualification_subtitle">Takshashila Residental School, BERHAMPUR</span>
+              <div class="qualification_calendar">
+                <i class="uil uil-calendar-alt"></i>
+                2019 - 2021
+              </div>
+            </div>
+          </div>
+
+          <!-- School 1-10 -->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Secondary School</h3>
+              <span class="qualification_subtitle">DAV PUBLIC SCHOOL, BERHAMPUR</span>
+              <div class="qualification_calendar">
+                <i class="uil uil-calendar-alt"></i>
+                2009 - 2019
+              </div>
+            </div>
+            <div>
+              <span class="qualification_circle"></span>
+            </div>
+          </div>
+
+        </div>
 
                 </section>
 
-                <body style="background-color:rgb(255,255,255);">
-                    <h1 style="color: #003cff;">
-                    EDUCATION
-                      </h1>
-                <ol>
-                <li>10 standard ,2019
-                
-                D.A.V PUBLIC SCHOOL ,BERHAMPUR</li>
-                
-
-                <li>12TH ,STREAM :-SCIENCE,2021
-                
-                Takshashila Residental School ,ankushpur
-                
-                subject combination:-P. C. M, COMPUTER AND PHYSICAL EDUCATION</li>
-                    <li>Parala Maharaja Engineering College(2021-2025)
-                    Btech,Branch-Mechanical Engineering</li>
-                </ol>
-                </body>
                 <h1 style="color: #003cff;">
                     EXPERIENCE AND INTERSHIP
                   </h1>
@@ -183,7 +240,7 @@
                     <li>SHAPEAI as a student social media manager,2021</li>
                     <li>Strategy 101 as a Community Manager,2021</li>
                     </li>
-                  </dl> 
+                  </dl>
                 </body>
                 <h1 style="color: #003cff;">
                     VOLUNTEER EXPERIENCE
@@ -191,7 +248,7 @@
                   <dl>
                     <li>ACADEMIC TEACHER at Robinhoodarmy(NGO)</li>
                     </li>
-                  </dl> 
+                  </dl>
                 </body>
                 <h1 style="color: #003cff;">
                     ORGANIZATION
@@ -200,16 +257,13 @@
                     <li>all-india-council-for-technical-skill-development
 
                         <LI>organization position :-member of association</LI>
-                        
                         <LI>organization ID:- AICTSD/Student/58243</li>
-                        
                         <LI>Member of GDG Bhubaneswar (Google Developer Groups)</li>
                     </li>
-                  </dl> 
+                  </dl>
             <!--===== WORK =====-->
               <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
-                  
                   <div class="work___container bd-grid">
                    <div class="work__img">
                         <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--YtxZHNsY--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/f5tzpogltw730jx3lb56.jpg" alt="">
@@ -238,9 +292,8 @@
                         <h3 class="header">GRAPHIC DESIGNS</h3>
                         <a href="https://drive.google.com/drive/folders/1783AIYHssoWRRrx2Mhu-x6WuaPJfTHAd?usp=sharing" class="button">Click</a>
                     </div>
-             
             <section class="Portfolio" id="Ebook">
-                <h2 class="section-title">Ebook</h2>       
+                <h2 class="section-title">Ebook</h2>
                     <div class="work__img">
                         <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_500,f_auto,q_auto/5777276/853113_339157.jpeg" alt="">
                         <h3 class="header">QUOTE BOOK</h3>
@@ -248,13 +301,12 @@
                     </div>
                 </div>
             </section>
-                    
-              <!--===== research =====--> 
+              <!--===== research =====-->
 
             <section class="Portfolio" id="research">
-                    <h2 class="section-title">RESEARCH AIRTCLE</h2>  
+                    <h2 class="section-title">RESEARCH AIRTCLE</h2>
 
-                    <div class="work__container bd-grid"> 
+                    <div class="work__container bd-grid">
                         <div class="work__img">
                         <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/5777276/753986_495867.jpeg" alt="">
                         <h3 class="header">Rolling out 5G in india</h3>
@@ -295,7 +347,7 @@
         </div>
         <div class="work__img">
             <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/5777276/284676_633298.jpg" alt="">
-        </div>               
+        </div>
         <div class="work__img">
             <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/5777276/256161_185977.jpg" alt="">
         </div>
@@ -361,25 +413,25 @@
         </div>
         <div class="work__img">
             <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/5777276/87177_551050.png" alt="">
-        </div> 
+        </div>
          <div class="work__img">
             <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/5777276/992136_981023.jpeg" alt="">
-         </div> 
+         </div>
          <div class="work__img">
             <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/5777276/151916_439366.png" alt="">
          </div>
          <div class="work__img">
             <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/5777276/226048_289667.png" alt="">
-         </div>            
+         </div>
          <div class="work__img">
             <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-d3de9978-f850-42e8-a011-0cd8e7c406ba.jpg?v=1634360401000" alt="">
-         </div> 
+         </div>
          <div class="work__img">
             <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/5777276/27619_718019.png" alt="">
-             </div> 
+             </div>
          <div class="work__img">
             <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1920,f_auto,q_auto/5777276/806104_370795.png" alt="">
-         </div> 
+         </div>
     </div>
 </section>
             <!--===== CONTACT =====-->
@@ -404,7 +456,7 @@
                 <a href="https://www.facebook.com/abhisek.kumarrath/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
                 <a href="https://www.instagram.com/abhisek_rath/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://twitter.com/iamabhisekrath " class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-                <a href="https://www.linkedin.com/in/abhisek-rath-b70a63149/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a> 
+                <a href="https://www.linkedin.com/in/abhisek-rath-b70a63149/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
             </div>
             <p>&#169; 2021 copyright all right reserved|Odisha|</p>
         </footer>
